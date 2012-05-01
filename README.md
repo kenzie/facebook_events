@@ -9,8 +9,8 @@ FacebookEvents pulls Event data from the Facebook graph for a particular user or
 Define your environment variables for Facebook APP ID (API Key) and APP Secret:
 
 ```
-FacebookEvents::FACEBOOK_APP_ID = ''
-FacebookEvents::FACEBOOK_SECRET = ''
+FacebookEvents::FACEBOOK_APP_ID = '###'
+FacebookEvents::FACEBOOK_SECRET = '###'
 ```
 
 ## Use
@@ -24,4 +24,4 @@ Returns an array of Events with attributes for facebook_id, name, start_time, en
 
 ### Dependencies
 
-Requires the MiniFB gem. [See Github source](https://github.com/appoxy/mini_fb).
+Requires the [MiniFB gem](https://github.com/appoxy/mini_fb).
