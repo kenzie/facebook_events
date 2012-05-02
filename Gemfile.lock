@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    facebook_events (0.0.2)
+    facebook_events (0.0.3)
       mini_fb (>= 1.1.7)
 
 GEM

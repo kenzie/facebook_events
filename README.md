@@ -1,6 +1,6 @@
 # FacebookEvents
 
-FacebookEvents pulls Event data from the Facebook graph for a particular user or page id. Events are returned as an array.
+FacebookEvents pulls Event data from the Facebook graph for a particular user or page id. Events are returned as an array of hashes.
 
 ## Setup
 
@@ -16,11 +16,9 @@ FacebookEvents::FACEBOOK_SECRET = '###'
 ## Use
 
 ```
-events = FacebookEvents.new(facebook_id)
-events.list
-events.list.first
+events = FacebookEvents.list(facebook_id)
 ```
-Returns an array of Events with attributes for facebook_id, name, start_time, end_time, location, description, updated_time.
+Returns an array of hashes – with attributes for id, name, start_time, end_time, location, description, updated_time.
 
 ### Dependencies
 
