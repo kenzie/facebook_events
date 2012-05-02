@@ -6,6 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["kenzie@route19.com"]
   gem.summary       = "Fetch an array of Facebook Events by id."
   gem.description   = "Given a Facebook page or user id, this gem will return an array of its events."
+  gem.homepage      = "https://github.com/kenzie/facebook_events"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
