@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    facebook_events (0.0.1)
+      mini_fb (>= 1.1.7)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -29,6 +35,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  facebook_events!
   guard-rspec
-  mini_fb
   rspec

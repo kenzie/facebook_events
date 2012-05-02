@@ -2,6 +2,7 @@ class FacebookEvents
 
   require 'mini_fb'
   require 'facebook_events/event'
+  require "facebook_events/version"
 
   # Get events for a Facebook page or user by id.
   # Requires environment variables for Facebook APP ID and APP Secret:

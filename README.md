@@ -6,7 +6,7 @@ FacebookEvents pulls Event data from the Facebook graph for a particular user or
 
 [Register your App on Facebook](https://developers.facebook.com/apps)
 
-Define your environment variables for Facebook APP ID (API Key) and APP Secret:
+Define your constants for Facebook APP ID (API Key) and APP Secret:
 
 ```
 FacebookEvents::FACEBOOK_APP_ID = '###'
